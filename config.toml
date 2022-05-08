@@ -1,0 +1,35 @@
+baseURL = 'https://EricZhouZhuo.github.io/eric.github.io'
+languageCode = 'en-us'
+title = 'Zhuo Zhou'
+theme = "ghostwriter-master"
+paginate = 5
+Copyright = "Zhuo Zhou"
+canonifyurls = true
+
+# [params]
+#   description = "ORIE MEng Student at Cornell University"
+#   authorlocation = "authorlocation"
+#   githubName = "EricZhouZhuo"x
+#   linkedinName = "Eric Zhou"
+#   email = "zz274@cornell.edu"
+#   instagramName = "think_zhouz"
+#   hideHUGOSupport = false
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Zhuo Zhou"
+    description = "ORIE MEng Student at Cornell University"
+    github = "https://github.com/EricZhouZhuo"
+    linkedin = "https://www.linkedin.com/in/eric-zhuo-zhou-9a08b3185/"
+    email = "zz274@cornel.edu"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+# [[params.ananke_socials]]
+# name = "linkedin"
+# url = "https://www.linkedin.com/in/eric-zhuo-zhou-9a08b3185/"
+
+
+[Permalinks]
+  post = "/:filename/"
